@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+typings/
+venv/
+.env
+.DS_Store
+chroma_data/
+minio_data/
+ollama_data/

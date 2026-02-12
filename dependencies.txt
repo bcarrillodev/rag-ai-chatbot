@@ -1,0 +1,13 @@
+streamlit
+boto3
+llama-index
+llama-index-core
+llama-index-readers-docling
+llama-index-vector-stores-chroma
+llama-index-embeddings-ollama
+llama-index-llms-ollama
+chromadb>=0.4.24
+pydantic>=2.0
+pydantic-settings
+python-multipart
+importlib-metadata>=6.0.0
