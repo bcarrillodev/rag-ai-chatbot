@@ -1,7 +1,4 @@
-version: '3.8'
-
 services:
-  # 1. The File Server (MinIO)
   minio:
     image: minio/minio:latest
     container_name: rag-minio
@@ -15,7 +12,6 @@ services:
     volumes:
       - ./minio_data:/data
 
-  # 2. The Vector Database (ChromaDB)
   chroma:
     image: chromadb/chroma:latest
     container_name: rag-chroma
@@ -27,7 +23,6 @@ services:
     volumes:
       - ./chroma_data:/data
 
-  # 3. The AI Engine (Ollama)
   ollama:
     image: ollama/ollama:latest
     container_name: rag-ollama
