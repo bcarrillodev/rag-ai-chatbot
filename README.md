@@ -17,15 +17,15 @@ The entire stack runs locally using Docker.
 
 ## 🏗️ Architecture Overview
 
-User  →  Streamlit UI  
-            ↓  
-        MinIO (Raw Document Storage)  
-            ↓  
-        Docling (Parsing & Structured Extraction)  
-            ↓  
-        LlamaIndex (Chunking + Embeddings via Ollama)  
-            ↓  
-        ChromaDB (Vector Storage)
+Streamlit UI  
+    ↓  
+MinIO (Raw Document Storage)  
+    ↓  
+Docling (Parsing & Structured Extraction)  
+    ↓  
+LlamaIndex (Chunking + Embeddings via Ollama)  
+    ↓  
+ChromaDB (Vector Storage)
 
 ---
 
@@ -232,7 +232,9 @@ You can view and manage these files through the MinIO Web Console:
 
 ```
 http://localhost:9001
+```
 
+```
 Username: minioadmin
 Password: minioadmin
 ```
