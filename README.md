@@ -2,6 +2,8 @@
 
 A fully local **Retrieval-Augmented Generation (RAG)** chatbot application.
 
+![RAG AI Chatbot Screenshot](images/rag-ai-chatbot-screenshot.png)
+
 This project combines:
 
 - **Ollama** – Local LLM and embedding models  
